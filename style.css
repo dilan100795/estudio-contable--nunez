@@ -1,0 +1,465 @@
+
+*{
+  margin:0;
+  padding:0;
+  font-family: 'BIZ UDPGothic', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+  
+}
+/*header*/
+
+ .header {
+ background-color: rgb(23, 10, 73); 
+ }
+ 
+
+.logo{
+ background-color: white;
+ text-align: center ;
+}
+
+ .header_menu {
+  display: grid;
+ list-style: none;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+ }
+  
+.header_menu li { 
+  padding: 20px;
+}
+
+ .header_menu li a{
+  text-decoration:none;
+  color:rgb(247, 246, 250);
+}
+ 
+.header li a:hover {
+  background-color: rgba(218, 188, 16, 0.5);
+ padding: 20px;
+}
+
+
+/*main*/
+
+.text_main {
+  text-align: center;
+  position: relative;
+  margin: 20px;
+
+}
+
+ .imagentext {
+  height: 200%;
+  width: 100%;
+ }
+ 
+ .textderecha h1{
+  top: 32%;
+  position:absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-size: 32px; align-items: center;
+}
+
+
+.textderecha p{
+  top: 64%;
+ 
+  position:absolute;
+  left:50%;
+  transform: translate(-49%, -50%);
+  color: white;
+  font-size: 18px;
+  text-align: left;
+}
+
+
+/*footer*/
+
+.contacto {
+
+  position:relative;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ background-color: rgb(23, 10, 73);
+ color: rgb(255, 255, 255);
+text-align: center;
+  
+ 
+}
+
+
+/*nosotros*/
+
+.somos{
+  text-align:justify;
+  font-size: 15px;
+  
+ 
+  padding: 40px;
+}
+.somos h1{
+  padding : 20px;
+}
+
+.imagsomos{
+  text-align: left;padding: 40px; top: 50px; 
+  
+}
+  
+
+.mision{
+   text-align:left;
+  font-size: 15px;  position: absolute;left: 53%;  top:35%; 
+  padding:40px ;
+}
+
+.imagmision{
+  text-align: left; padding: 0px 60px 40px 80px ; top: 0px; 
+
+}
+
+
+/*servicios*/
+
+.contable{
+  text-align:left;
+  position: absolute;
+  right: 40%;padding:  70px ; 
+   top:9%;font-size: 15px;
+}
+.imagcontable{
+  text-align: right;padding :60px 100px 50px 20px;
+ 
+}
+.laboral{
+   text-align:left;
+  position: absolute;
+ left: 40%;  top:40%;padding: 80px;
+  font-size: 15px;
+}
+
+.imaglaboral{
+  text-align: left;
+  padding :20px 100px 20px 100px;
+}
+
+.impositivo{
+  text-align:left;
+  position: absolute;
+  right: 45%;padding:  60px ;  
+  top:60%;font-size: 15px;
+}
+
+.imagimpositivo{
+  text-align: right;padding :60px 100px 50px 20px;
+  margin-top: 10px;  position: relative;
+}
+
+
+/*contacto*/
+
+.ubicacion{
+  text-align: left;
+  position: absolute;
+ bottom: 20%;
+  right: 65%;padding: 10px;font-size: 16px; 
+}
+
+.mapa{
+  text-align: right;
+  position: relative;
+right: 10%;
+margin: 20px;
+}
+
+
+
+
+/*consultas*/
+
+.formulatext{
+  top: 50%;
+  left:59%;
+  position: absolute;
+  transform: translate(-70%, -50%);
+  color:rgb(0, 0, 0);
+  font-size: 15px;
+  text-align: left;
+  border:solid 1px black ;
+  padding: 7px 30px;
+ 
+}
+
+.formulario{
+  width: 100%;
+  padding: 15px 10px 15px;
+  margin: 8px 0 px ;
+  box-sizing: border-box;
+   resize:none;
+  border:solid 1px black;
+}
+
+
+
+/*media query 768px*/
+
+@media only screen and (max-width: 768px) {
+   
+     .header_menu {
+     
+     grid-template-columns: 1fr  ;
+     justify-items: center;
+     }
+    
+    .text_main {
+     
+      position: relative;
+      margin-right: 60px;
+      text-align: center;
+    }
+    
+    .textderecha h1{
+      top: 33%;
+      left:45%;
+      transform: translate(-35%, -50%);
+      font-size: 19px; 
+    }
+    
+    .textderecha p{
+      top: 85%;
+     left: 15%; 
+     transform: translate(-8%, -100%);
+      font-size: 14px;
+      
+    }
+
+/*nosotros*/
+
+.somos{
+  
+  font-size: 12px;
+  padding: 10px;
+}
+.somos h1{
+  padding : 5px;
+}
+
+.imagsomos{
+ padding: 25px; top: 30px; 
+  
+}
+  
+
+.mision{
+  font-size: 11px;left: 48%;  top:35%; 
+  padding:30px ;
+}
+
+.imagmision{
+    padding: 0px 40px 130px 50px ; 
+
+}
+
+
+/*servicios*/
+
+.contable{
+  text-align:justify;
+  
+  right: 45%;padding:  20px ; 
+   top:10%;font-size: 14px;
+}
+.imagcontable{
+ padding :80px 20px 150px 20px;
+ 
+}
+.laboral{
+   
+ left: 50%;  top:40%;padding: 10px;
+  font-size: 14px;
+}
+
+.imaglaboral{
+  padding :40px 10px 150px 20px;
+}
+
+.impositivo{
+  
+  right: 45%;padding:  20px ;  
+  top:64%;font-size: 14px;
+}
+
+.imagimpositivo{
+ padding :80px 20px 190px 20px;
+  margin-top: 4px;  position: relative;
+}
+
+
+
+
+/*contacto*/
+
+.ubicacion{
+  text-align:center;
+  position:static;
+ bottom: 20%;
+  padding: 20px;font-size: 16px; 
+ 
+}
+
+.mapa{
+  text-align: center;
+  
+left: 0%;
+margin: 5px;
+}
+
+
+/*consultas*/
+
+.formulatext{
+  top: 49%;
+  left:60%;
+  font-size: 13px;
+  text-align: left;
+  padding: 3px 25px;
+ 
+}
+
+.formulario{
+  
+padding: 0px 6px 0px ;
+  
+}
+
+  }
+
+
+ /*media query 480px*/
+
+@media only screen and (max-width: 480px) {
+      
+     .text_main {
+      
+       position: relative;
+       margin-right: 60px;
+       text-align: center;
+     }
+    
+     .textderecha h1{
+       top: 29%;
+       
+       left:35%;
+       transform: translate(-25%, -50%);
+       font-size: 17px; 
+     }
+     
+     .textderecha p{
+       top: 90%;
+      left: 15%;
+       font-size: 10px;
+     }
+   
+ 
+/*nosotros*/
+
+.somos{
+
+  font-size: 11px;
+  
+ 
+  padding: 0px;
+}
+.somos h1{
+  padding : 5px;
+}
+
+.imagsomos{
+ top: 0px; 
+ padding: 30px 20px 30px 4px ;
+}
+  
+
+.mision{
+   
+  font-size: 10px;  position: absolute;left: 47%;  top:45%; 
+  padding:6px ;
+}
+
+.imagmision{
+  padding: 10px 40px 160px 30px ; top: 0px; 
+
+}
+
+
+/*servicios*/
+
+.contable{
+ 
+  right: 35%;padding:  20px ; 
+   top:15%;font-size: 12px;
+}
+.imagcontable{
+  padding :80px 0px 150px 20px;
+ 
+}
+.laboral{
+   
+ left: 50%;  top:40%;padding: 10px;
+  font-size: 12px;
+}
+
+.imaglaboral{
+  text-align: justify;
+  padding :50px 0px 150px 20px;
+}
+
+.impositivo{
+  
+  right: 35%;padding:  20px ;  
+  top:64%;font-size: 12px;
+}
+
+.imagimpositivo{
+ padding :80px 20px 190px 20px;
+  margin-top: 4px;  position: relative;
+}
+
+
+
+/*contacto*/
+.ubicacion{
+  text-align:justify;
+  position:static;
+ bottom: 20%;
+  padding: 20px;font-size: 16px; 
+}
+
+.mapa{ text-align: center;
+  left: -15px;
+
+padding-block: 12px;
+margin: 7px;
+
+}
+
+
+/*consultas*/
+   .formulatext{
+   top: 49%;
+   left:63%;
+   font-size: 7px;
+   padding: 3px 25px;
+     
+    }
+    
+.formulario{
+ 
+   padding: 0px 6px 0px ;
+   
+    }
+    
+} 
