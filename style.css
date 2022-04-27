@@ -15,7 +15,13 @@
 
 .logo{
  background-color: white;
- text-align: center ;
+ text-align: center ;transition: width 2s, height 2s, transform 2s;
+}
+.logoimg{
+  transition: width 2s, height 2s, transform 2s;
+}
+.logoimg:hover {
+  
 }
 
  .header_menu {
@@ -45,12 +51,15 @@
   text-align: center;
   position: relative;
   margin: 20px;
-
+  width: 100%;
 }
+
+
 
  .imagentext {
   height: 200%;
   width: 100%;
+  
  }
  
  .textderecha h1{
@@ -105,20 +114,28 @@ text-align: center;
 }
 
 .imagsomos{
-  text-align: left;padding: 40px; top: 50px; 
-  
+  text-align: left;padding: 40px; top: 50px; width: 100%;  transition: width 2s;
+ 
 }
-  
+
+.imagsomos:hover {
+  width: 120%;
+}
 
 .mision{
    text-align:left;
   font-size: 15px;  position: absolute;left: 53%;  top:35%; 
-  padding:40px ;
+  padding:40px ;transition: width 1s, height 1s, transform 2s;
+
+}
+.mision:hover {
+  font-size: 20px;
+  transform: rotate(360deg);
 }
 
 .imagmision{
   text-align: left; padding: 0px 60px 40px 80px ; top: 0px; 
-
+  transition: width 2s, height 2s, transform 2s;
 }
 
 
@@ -131,9 +148,13 @@ text-align: center;
    top:9%;font-size: 15px;
 }
 .imagcontable{
-  text-align: right;padding :60px 100px 50px 20px;
- 
+  text-align: right;padding :60px 100px 50px 20px; width: 90%; transition: width 2s;
 }
+.imagcontable:hover {
+  width: 83%;
+}
+
+
 .laboral{
    text-align:left;
   position: absolute;
@@ -165,8 +186,9 @@ text-align: center;
   text-align: left;
   position: absolute;
  bottom: 20%;
-  right: 65%;padding: 10px;font-size: 16px; 
+  right: 65%;padding: 10px;font-size: 16px;  border: solid 1px black;
 }
+
 
 .mapa{
   text-align: right;
