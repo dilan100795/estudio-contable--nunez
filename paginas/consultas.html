@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon"  type="imagenes/x-icon" href="./imagenes/logo.jpg">
+    <link rel="icon"  type="imagenes/x-icon" href="../imagenes/logo.jpg">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=Noto+Sans&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/711c8550fc.js" crossorigin="anonymous"></script>
+
 <link rel="stylesheet" href="../style.css">
 
 <title>nuñez & asociados</title>
@@ -37,54 +39,104 @@
                  <a class="nav-link" href=" ./consultas.html ">CONSULTAS</a>
               </div>
              </div>
+            </div>  <div class="contacto">
+   
+
+        
+              <strong><i class="fa-brands fa-whatsapp"></i></strong>
+               +54 1140374037<div></div>
+        <i class="fa-solid fa-location-dot"></i></strong>
+               Suipacha 245 - caba <div></div>
+                
+        
+              <strong><i class="fa-solid fa-envelope"></i></strong>
+              info@estudio-nuñez.com.ar<div></div>
+              <strong>
+        
            </div>
          </nav>
   
      </header>
      <h1 class="text-center my-5"> ESTUDIO CONTABLE NUÑEZ & ASOCIADOS </h1>
-    <main class="text_main">
-       
+  
+     <main >
+     
+      <section class="container section">
+
+        <div class="row">
+          <div class="col-lg-5 col-md-6 col-sm-12 ">
+            <div  >
+              <img src="../imagenes/escribir.jpg"    ALT="Asociados foto grupal" width="100%" height="80%">
+
            
-
-          <form class="formulatext">
-            <h1> CONSULTAS</h1>
-           
-         <label for="fname">Nombre Y Apellido:</label>
-         <div></div>
-
-         <input class="formulario" type="text" placeholder= "Nombre"  id="fname" name="fname">
-         <div></div>
-
-         <label for="phone">Telefono:</label>
-         <div></div>
-
-         <input  class= "formulario" type="tel" id="phone" placeholder= "Telefono"  name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
-         <div></div>
-
-
-         <label for="email">Email:</label>
-         <div></div>
-         
-
-         <input  class="formulario" type="email" id="email"  placeholder= "Email"   name="email">
-         <div></div>
-
-         
-         <label for="Comentarios"> Consulta:</label>
-         <div></div>
-
-         <textarea class="formulario" name= "Comentarios"
-           placeholder= "Escriba aquí su consulta."
-             rows="4" cols="50"></textarea><div></div>
-
-         <input  type="submit">
-        
-       </form> 
-       <div class="imagencontacto">
-           <img src="../imagenes/lapiz.jpg"  alt="asociada trabajando para brindar soluciones" width="70%"  >
-         </div>
       
- </main>
+    </div>
+             </div>     
+          
+          <div class="col-lg-7 col-md-6 col-sm-12 ">
+       
+          <div class="row">
+
+            <div class="container px-5 my-5">
+              <div class="form-floating mb-3">
+                  <input class="form-control" id="nombreYApellido" type="text" placeholder="Nombre y Apellido"  />
+                  <label for="nombreYApellido">Nombre y Apellido</label>
+    
+              </div>
+              <div class="form-floating mb-3">
+                  <input class="form-control" id="telefono" type="text" placeholder="Telefono" />
+                  <label for="telefono">Telefono</label>
+                
+              </div>
+              <div class="form-floating mb-3">
+                  <input class="form-control" id="email" type="email" placeholder="Email " />
+                  <label for="email">Email </label>
+                  
+              </div>
+              <div class="form-floating mb-3">
+                  <textarea class="form-control" id="consulta" type="text" placeholder="Consulta" style="height: 10rem" ></textarea>
+                  <label for="consulta">Consulta</label>
+                  
+              </div>
+              <div >
+              <div class="d-none" id="submitSuccessMessage">
+                  <div class="text-center mb-3">
+                      <div class="fw-bolder">Form submission successful!</div>
+                      <p>To activate this form, sign up at</p>
+                      <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                  </div>
+             
+               </div>
+  
+              <div class="d-grid">
+              <input class="colorenviar" type="submit">
+             
+            </div>
+  
+          </form>
+      </div>
+     
+
+    </div>
+             </div> 
+    </div>  
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+      
+     
+  </main>
+
 
 
      
