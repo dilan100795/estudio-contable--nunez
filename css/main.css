@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif; }
+
+.contacto {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #170a49;
+  color: white;
+  text-align: center; }
+
+.header {
+  background-color: #170a49; }
+  .header a {
+    padding-left: 110px;
+    padding-right: 100px; }
+    .header a .logo {
+      text-align: center;
+      transition: width 2s, height 2s, transform 3s;
+      width: 100px;
+      border-radius: 12px; }
+    .header a .log:hover {
+      transform: rotate(360deg); }
+  .header .navbar-nav a:hover {
+    padding: 10px; }
+
+.carousel-item {
+  padding: 20px; }
+
+.ubicacion {
+  padding: 20px;
+  font-size: 15px; }
+
+.main .form-control {
+  resize: none;
+  border: solid 1px #170a49; }
+
+.main .colorenviar {
+  background-color: #170a49;
+  color: white; }

@@ -1,10 +1,10 @@
-
+/* general */
 *{
   margin:0;
   padding:0;
-  font-family: 'BIZ UDPGothic', sans-serif;
   font-family: 'Noto Sans', sans-serif;
   
+ 
 }
 /*header*/
 
@@ -18,7 +18,7 @@
   padding-left:110px; padding-right: 100px;
 }
 
-.navbar-nav a:hover {
+.header .navbar-nav a:hover {
 padding: 10px; 
 }
 
@@ -35,20 +35,11 @@ padding: 10px;
 
 
 
-
 .carousel-item{
-padding: 20px; 
-}
+  padding: 20px; 
+  }
 
 
-
-
-.text_main {
-  text-align: center;
-  position: relative;
-  margin: 20px;
-  width: 100%;
-}
 /*footer*/
 
 .contacto {
@@ -101,262 +92,3 @@ text-align: center;
 
 
 
-/*media query 768px*/
-
-@media only screen and (max-width: 768px) {
-   
-  .header_menu {
-  
-  grid-template-columns: 1fr  ;
-  justify-items: center;
-  }
- 
- .text_main {
-  
-   position: relative;
-   margin-right: 60px;
-   text-align: center;
- }
- 
- .textderecha h1{
-   top: 33%;
-   left:45%;
-   transform: translate(-35%, -50%);
-   font-size: 19px; 
- }
- 
- .textderecha p{
-   top: 85%;
-  left: 15%; 
-  transform: translate(-8%, -100%);
-   font-size: 14px;
-   
- }
-
-/*nosotros*/
-
-.somos{
-
-font-size: 12px;
-padding: 10px;
-}
-.somos h1{
-padding : 5px;
-}
-
-.imagsomos{
-padding: 25px; top: 30px; 
-
-}
-
-
-.mision{
-font-size: 11px;left: 48%;  top:35%; 
-padding:30px ;
-}
-
-.imagmision{
- padding: 0px 40px 130px 50px ; 
-
-}
-
-
-/*servicios*/
-
-.contable{
-text-align:justify;
-
-right: 45%;padding:  20px ; 
-top:10%;font-size: 14px;
-}
-.imagcontable{
-padding :80px 20px 150px 20px;
-
-}
-.laboral{
-
-left: 50%;  top:40%;padding: 10px;
-font-size: 14px;
-}
-
-.imaglaboral{
-padding :40px 10px 150px 20px;
-}
-
-.impositivo{
-
-right: 45%;padding:  20px ;  
-top:64%;font-size: 14px;
-}
-
-.imagimpositivo{
-padding :80px 20px 190px 20px;
-margin-top: 4px;  position: relative;
-}
-
-
-
-
-/*contacto*/
-
-.ubicacion{
-text-align:center;
-position:static;
-bottom: 20%;
-padding: 20px;font-size: 16px; 
-
-}
-
-.mapa{
-text-align: center;
-
-left: 0%;
-margin: 5px;
-}
-
-
-/*consultas*/
-
-.formulatext{
-top: 49%;
-left:60%;
-font-size: 13px;
-text-align: left;
-padding: 3px 25px;
-
-}
-
-.formulario{
-
-padding: 0px 6px 0px ;
-
-}
-
-}
-
-
-/*media query 480px*/
-
-@media only screen and (max-width: 480px) {
-   
-  .text_main {
-   
-    position: relative;
-    margin-right: 60px;
-    text-align: center;
-  }
- 
-  .textderecha h1{
-    top: 29%;
-    
-    left:35%;
-    transform: translate(-25%, -50%);
-    font-size: 17px; 
-  }
-  
-  .textderecha p{
-    top: 90%;
-   left: 15%;
-    font-size: 10px;
-  }
-
-
-/*nosotros*/
-
-.somos{
-
-font-size: 11px;
-
-
-padding: 0px;
-}
-.somos h1{
-padding : 5px;
-}
-
-.imagsomos{
-top: 0px; 
-padding: 30px 20px 30px 4px ;
-}
-
-
-.mision{
-
-font-size: 10px;  position: absolute;left: 47%;  top:45%; 
-padding:6px ;
-}
-
-.imagmision{
-padding: 10px 40px 160px 30px ; top: 0px; 
-
-}
-
-
-/*servicios*/
-
-.contable{
-
-right: 35%;padding:  20px ; 
-top:15%;font-size: 12px;
-}
-.imagcontable{
-padding :80px 0px 150px 20px;
-
-}
-.laboral{
-
-left: 50%;  top:40%;padding: 10px;
-font-size: 12px;
-}
-
-.imaglaboral{
-text-align: justify;
-padding :50px 0px 150px 20px;
-}
-
-.impositivo{
-
-right: 35%;padding:  20px ;  
-top:64%;font-size: 12px;
-}
-
-.imagimpositivo{
-padding :80px 20px 190px 20px;
-margin-top: 4px;  position: relative;
-}
-
-
-
-/*contacto*/
-.ubicacion{
-text-align:justify;
-position:static;
-bottom: 20%;
-padding: 20px;font-size: 16px; 
-}
-
-.mapa{ text-align: center;
-left: -15px;
-
-padding-block: 12px;
-margin: 7px;
-
-}
-
-
-/*consultas*/
-.formulatext{
-top: 49%;
-left:63%;
-font-size: 7px;
-padding: 3px 25px;
-  
- }
- 
-.formulario{
-
-padding: 0px 6px 0px ;
-
- }
- 
-} 
