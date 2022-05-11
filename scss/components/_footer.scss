@@ -7,5 +7,7 @@
    background-color:$color-principal;
    color:$color-secundario;
   text-align: center;
+  @include relative(100%,)
+   font-size: map-get($tamanio-tipografia, parrafos );
   }
   
