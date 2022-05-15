@@ -1,7 +1,8 @@
 
 
 .ubicacion{
-
-    padding: 20px;font-size: 15px;  
+@extend %left;
+    
+  font-size: map-get($map:$tamanio-tipografia , $key:parrafos );  
   }
   
